@@ -6,6 +6,12 @@
 docker system df
 ```
 
+### Como parar todos os containers
+
+```bash
+docker stop $(docker ps -q)
+```
+
 ### Como apagar todas as builds de cache
 
 ```bash
